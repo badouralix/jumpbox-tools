@@ -2,6 +2,8 @@ export VIRTUAL_ENV_DISABLE_PROMPT=1
 source $HOME/python/bin/activate && cd $HOME/dogweb
 export GOPATH=$HOME/go
 export GOBIN=$GOPATH/bin
+export CGO_CFLAGS_ALLOW='-fno-builtin-memcmp'
+export CGO_CXXFLAGS_ALLOW='-fno-builtin-memcmp|-lpthread'
 export NODEPATH=$HOME/dogweb/node_modules
 export PATH=~/bin:$GOBIN:$PATH:$NODEPATH/.bin/:~/usr/bin
 
