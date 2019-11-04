@@ -14,7 +14,7 @@ curl -L https://raw.githubusercontent.com/badouralix/jumpbox-tools/master/bootst
 
 - Cross-compatible `prod`, `staging`, `VM`, `local` (OSX)
 - Go version is usually up-to-date, separate compiled package for OSX/VM (`/pkg`)
-- zsh theme is [muse](https://github.com/robbyrussell/oh-my-zsh/wiki/themes#muse) with custom color scheme for `prod`, `staging`, `local`, `vm`
+- zsh theme is a fork of [muse](https://github.com/robbyrussell/oh-my-zsh/wiki/themes#muse) with custom color scheme for `prod`, `staging`, `local`, `vm`
 - plugins are `git`, `python`, `screen`, `z`, `zsh-syntax-highlighting`
 
 ## Aliases
