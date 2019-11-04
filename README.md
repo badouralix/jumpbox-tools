@@ -6,8 +6,8 @@
 On an env, local or the VM:
 You shouldn't do this if you don't know what you are doing:
 
-```
-curl -L https://raw.githubusercontent.com/wackywendell/jumpbox-tools/master/bootstrap.sh | sh
+```bash
+curl -L https://raw.githubusercontent.com/badouralix/jumpbox-tools/master/bootstrap.sh | sh
 ```
 
 ## Features
@@ -16,7 +16,6 @@ curl -L https://raw.githubusercontent.com/wackywendell/jumpbox-tools/master/boot
 - Go version is usually up-to-date, separate compiled package for OSX/VM (`/pkg`)
 - zsh theme is [muse](https://github.com/robbyrussell/oh-my-zsh/wiki/themes#muse) with custom color scheme for `prod`, `staging`, `local`, `vm`
 - plugins are `git`, `python`, `screen`, `z`, `zsh-syntax-highlighting`
-
 
 ## Aliases
 
@@ -28,4 +27,3 @@ curl -L https://raw.githubusercontent.com/wackywendell/jumpbox-tools/master/boot
 - [ENV] `howold` to get instance age
 - [VM] `gocheck` in a go project to run `fmt`, `vet`, `lint`
 - [VM] `goforit` to jump to dd-go folder
-
